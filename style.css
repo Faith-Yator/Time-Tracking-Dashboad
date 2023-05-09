@@ -1,0 +1,172 @@
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%);
+
+     }
+
+body{
+  background-color: hsl(226, 43%, 10%);
+  height:100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.container{
+    display: grid;
+    gap: 40px;
+    padding: 10px;
+    grid-template-columns: auto auto auto auto;
+    border:1px solid black;
+}
+.report{
+    color: white;
+    column-gap: 2rem;
+    background-color: hsl(236, 89%, 7%);
+    border: 1px solid black;
+}
+.work{
+    color: white;
+    column-gap: 2rem;
+    border: 1px solid black;
+    background-color:hsl(235, 46%, 20%) ;
+}
+.profile img{
+    height: 2rem;
+
+}
+.work-container{
+    display: flex;
+    justify-content: end;
+    background-color: hsl(15, 100%, 70%);
+}
+.jeremy{
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+grid-row: 1/span 2;
+ column-gap: 2rem;
+border: 1px solid black;
+background-color:hsl(246, 80%, 60%) ;
+}
+.doings{
+    color: white;
+    column-gap: 2rem;
+    border: 1px solid black;
+    background-color:hsl(235, 45%, 61%) ;
+    padding: 10px;
+}
+.doings{
+    display:flex;
+    justify-content: left;
+background-color:  hsl(235, 46%, 20%) ;
+}
+.work{
+    color: white;
+    column-gap: 2rem;
+    border: 1px solid black;
+    background-color: hsl(235, 46%, 20%);
+}
+.work-container{
+    display: flex;
+    justify-content: end ;
+    background-color:hsl(15, 100%, 70%) ;
+}
+.work img{
+    height: 2rem;
+}
+.work-doings{
+    height: 2rem;
+}
+.play-doings{
+    padding: 10px;
+}
+.study-doings{
+    padding: 10px;
+}
+.exercise-doings{
+    padding: 10px;
+}
+.social-doings{
+    padding: 10px;
+}
+.play{
+    color: white;
+    border-radius: 25px;
+    column-gap: 2rem;
+    background-color: hsl(235, 46%, 20%);
+    border: 1px solid black;
+}
+.play img{
+    height: rem;
+}
+.play-container{
+    display: flex;
+    justify-content: end;
+    justify-content: end ;
+    background-color: hsl(195, 74%, 62%) ;
+}
+.play img{
+    height: 2rem;
+}
+.study-container{
+    display: flex;
+    justify-content: end;
+    background-color:hsl(348, 100%, 68%) ;
+}
+.exercise-container{
+    display: flex;
+    justify-content: end;
+    background-color:hsl(348, 100%, 68%) ;
+}
+.social-container{
+      display: flex;
+      justify-content: end;
+background-color:  hsl(236, 61%, 66%) ;
+}
+.self-care-container{
+    display: flex;
+    justify-content: end;
+    background-color:hsl(15, 100%, 70%) ;
+}
+.study img{
+    height: 2rem;
+}
+.study{
+   color: white;
+    border: 1px solid black;
+    column-gap: 2rem;
+    background-color: hsl(235, 46%, 20%);
+} 
+.exercise img{
+    height: 2rem;
+}
+.exercise{
+    color: white;
+    border: 1px solid black;
+    column-gap: 2rem;
+    background-color: hsl(235, 46%, 20%);
+}
+.exercise img{
+    height: 2rem;
+}
+.social{
+    color: white;
+    border: 1px solid black;
+    column-gap: 2rem;
+    background-color: hsl(235, 46%, 20%);
+
+}
+.social img{
+    height: 2rem;
+}
+.self-care{
+    color: white;
+    border: 1px solid black;
+    column-gap: 2rem;
+    background-color: hsl(235, 46%, 20%);
+
+}
